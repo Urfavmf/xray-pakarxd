@@ -1,4 +1,4 @@
-FROM teddysun/xray
+FROM extremexd/xray
 ENV TZ=Asia/Kolkata
 ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
